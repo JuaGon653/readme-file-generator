@@ -63,7 +63,10 @@ function init() {
   ])
   .then((response) =>
     writeToFile('README.md', response)
-  );
+  )
+  .catch((error) => {
+    console.error(error);
+  });
 }
 
 // Function call to initialize app
