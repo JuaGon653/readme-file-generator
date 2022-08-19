@@ -77,7 +77,9 @@ function renderLicenseSection(license) {
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   SOFTWARE.`;
     case 'GNU GPLv3':
-      return `                    
+      return ` 
+  <details>   
+  <summary>GNU GPLv3 License</summary>                
   GNU GENERAL PUBLIC LICENSE
   Version 3, 29 June 2007
 
@@ -751,7 +753,8 @@ function renderLicenseSection(license) {
   may consider it more useful to permit linking proprietary applications with
   the library.  If this is what you want to do, use the GNU Lesser General
   Public License instead of this License.  But first, please read
-  <https://www.gnu.org/licenses/why-not-lgpl.html>.`;
+  <https://www.gnu.org/licenses/why-not-lgpl.html>.
+  </details>`;
   }
 }
 
