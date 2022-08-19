@@ -765,19 +765,21 @@ function generateMarkdown(data) {
   let Llink = renderLicenseLink(data.license);
   return `
   ${Lbadge}
-  # Title
+  # ${data.title}
+
+  ## Table of Contents
   
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Contribute](#contribute)
+  - [Tests](#tests)
+  - [License](#license)
+
   ## Description
   
   ${data.description}
   
-  ## Table of Contents (Optional)
   
-  If your README is long, add a table of contents to make it easy for users to find what they need.
-  
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
   
   ## Installation
   
@@ -787,7 +789,7 @@ function generateMarkdown(data) {
   
   ${data.usage}
   
-  ## How to Contribute
+  ## Contribute
   
   ${data.contribution}
   
