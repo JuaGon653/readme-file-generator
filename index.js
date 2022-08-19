@@ -38,12 +38,7 @@ function init() {
         message: questions[3],
         name: 'usage',
     },
-    {
-        type: 'list',
-        message: questions[4],
-        name: 'license',
-        choices: ["The Unlicense", "MIT License", "GNU GPLv3"]
-    },
+    
     {
         type: 'input',
         message: questions[5],
@@ -58,6 +53,12 @@ function init() {
         type: 'input',
         message: questions[7],
         name: 'questions',
+    },
+    {
+        type: 'list',
+        message: questions[4],
+        name: 'license',
+        choices: ["The Unlicense", "MIT License", "GNU GPLv3"]
     },
   ])
   .then((response) =>
