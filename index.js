@@ -16,6 +16,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+  // all the questions the user will be prompted with
     inquirer
   .prompt([
     {
