@@ -22,6 +22,7 @@ function init() {
       type: 'input',
       message: questions[0],
       name: 'title',
+      
     },
     {
       type: 'input',
@@ -50,16 +51,21 @@ function init() {
         name: 'tests',
     },
     {
-        type: 'input',
-        message: questions[7],
-        name: 'questions',
-    },
-    {
         type: 'list',
         message: questions[4],
         name: 'license',
         choices: ["The Unlicense", "MIT License", "GNU GPLv3"]
     },
+    {
+      type: 'input',
+      message: 'Enter GitHub username:',
+      name: 'username'
+    },
+    {
+      type: 'input',
+      message: 'Enter email address:',
+      name: 'email'
+    }
   ])
   .then((response) =>
     writeToFile('README.md', response)

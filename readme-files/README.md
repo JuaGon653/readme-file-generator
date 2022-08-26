@@ -1,6 +1,6 @@
 
   ![](https://img.shields.io/apm/l/vim-mode)
-  # ahrrg
+  # Readme file generator
 
   ## Table of Contents
   
@@ -12,25 +12,31 @@
 
   ## Description
   
-  arehwqr
+  Create readme file generator
   
   
   
   ## Installation
   
-  harehawsr
+  Install it
   
   ## Usage
   
-  aershswrg
+  To create professional readme file through terminal
   
   ## Contribute
   
-  srfhgfeg
+  Give me money
   
   ## Tests
   
-  hserhgg
+  No tests
+
+  ## Questions
+
+  If you have any questions contact my by...
+  - GitHub: [JuaGon653](https://github.com/JuaGon653)
+  - Email: juaninnb2003@icloud.com
 
   ## License
   [MIT License](https://choosealicense.com/licenses/mit/)

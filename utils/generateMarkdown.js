@@ -771,8 +771,10 @@ function generateMarkdown(data) {
   
   - [Description](#description)
   - [Installation](#installation)
+  - [Usage](#usage)
   - [Contribute](#contribute)
   - [Tests](#tests)
+  - [Questions](#questions)
   - [License](#license)
 
   ## Description
@@ -796,6 +798,12 @@ function generateMarkdown(data) {
   ## Tests
   
   ${data.tests}
+
+  ## Questions
+
+  If you have any questions contact my by...
+  - GitHub: [${data.username}](https://github.com/${data.username})
+  - Email: ${data.email}
 
   ## License
   ${Llink}
